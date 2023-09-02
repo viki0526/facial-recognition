@@ -1,1 +1,1 @@
-# react-project
+# Image Classifier with Convolutional Neural Networks (CNN)
