@@ -27,8 +27,11 @@ body {
   color: white;
 }
 
-.title-container h1,
-.title-container p {
+.form-label {
+  margin: 0.5rem 0;
+}
+
+.title-container h1 {
   margin:  10px 0;
 }
 
