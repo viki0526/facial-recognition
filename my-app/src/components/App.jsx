@@ -1,7 +1,10 @@
 import React, {useState, useEffect} from 'react';
 
 import '../css/App.css';
-import Home from './Home.jsx'
+import { FileUpload } from './FileUpload';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function App() {
@@ -30,13 +33,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>React and flask</h1>
-          <p>{data.name}</p>
-          <p>{data.age}</p>
-          <p>{data.date}</p>
-          <p>{data.programming}</p>
-      </header>
+      <div className="title-container">
+        <h1>Drop an image of your favourite animal and find out if it's a cat or a dog!</h1>
+      </div>
+      <FileUpload />
     </div>
   );
 }
